@@ -1,6 +1,6 @@
 # Gleam Nakai HTMX Template
 
-This is the starting point for a nakai + htmx template project, it's setup in a minimal way to get started.
+This is the starting point for a nakai + htmx template with Wisp for the backend, it's setup in a minimal way to get started.
 
 ## Project structure
 
@@ -65,6 +65,9 @@ pnpm install # Install the dependencies
 pnpm run dev   # Run the project
 gleam test  # Run the tests
 ```
+
+**Looking for a more robust Gleam solution?** 
+Check out the [Gleam Monorepo Template](https://github.com/sandsower/gleam-monorepo-template)! It's setup to use Wisp for the backend and Lustre for the frontend 
 
 ## Deployment
 
