@@ -1,0 +1,19 @@
+{
+  "name": "gleam-nakai-htmx-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently -n server,tailwind \"pnpm watch:server\" \"pnpm watch:tw\"",
+    "watch:server": "watchexec -r -e toml,gleam gleam run",
+    "watch:tw": "tailwindcss -i ./priv/static/sources/css/main.css -o ./priv/static/dist/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "latest",
+    "tailwindcss": "^3.3.3"
+  },
+  "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b"
+}

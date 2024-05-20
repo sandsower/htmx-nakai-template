@@ -1,0 +1,9 @@
+*.beam
+*.ez
+build
+erl_crash.dump
+.npmrc
+*.db
+*.sqlite*
+.yarn/
+node_modules/
