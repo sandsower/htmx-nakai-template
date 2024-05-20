@@ -77,3 +77,5 @@ The project comes with a standard Dockerfile that can be used for deployment pur
 
 - Remove node dependencies
 - Expand on deployment section
+
+Initial structure inspired by the work done for [jsorm](https://github.com/aosasona/jsorm), check it out for your JSON explorer needs!
